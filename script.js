@@ -3,6 +3,10 @@ const Output = document.querySelector('.output');
 
 function likeCounter(){
   console.log("click");
+ 
+  Output.innerText++;
+  
+  
 }
 
 
