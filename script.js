@@ -4,8 +4,10 @@ const Output = document.querySelector('.output');
 function likeCounter(){
   console.log("click");
  
-  Output.innerText++;
-  
+  var output= Output.innerText;
+  output++;
+  Output.innerHTML = output;
+  Output.style.color= "green";
   
 }
 
